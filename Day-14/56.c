@@ -15,9 +15,10 @@ int main()
     {
         for (j = i + 1; j < n; j++)
         {
-            if (arr[i] == arr[j])
+            if (arr[i] == arr[j] && arr[i] != -1)
             {
                 printf("%d ", arr[i]);
+                arr[j] = -1; 
                 break;
             }
         }
