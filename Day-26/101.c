@@ -15,7 +15,7 @@ int main() {
      secret = rand() % 50 + 1;
 
     while (gameFlag == 1) {
-        secret = rand() % 50 + 1;
+       
 
         printf("Guess the number (1-50): ");
         scanf("%d", &guess);
