@@ -11,6 +11,9 @@ int main() {
         printf("enter 1 to start the game or 0 to exit: ");
         scanf("%d", &gameFlag);
     }
+    if (gameFlag==1)
+     secret = rand() % 50 + 1;
+
     while (gameFlag == 1) {
         secret = rand() % 50 + 1;
 
